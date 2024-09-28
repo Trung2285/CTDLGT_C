@@ -3,9 +3,9 @@
 int tongChan(int n)
 {
 	if(n%2==0)
-//		if(n<10)
-//			return n;
-//		else
+		if(n<10)
+			return n;
+		else
 			return n%10 + tongChan(n/10);
 	else
 		return tongChan(n/10);
